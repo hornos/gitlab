@@ -12,7 +12,7 @@ packages = %w{
   sqlite3 
   libsqlite3-dev 
   libcurl4-openssl-dev 
-  libreadline5-dev 
+  libreadline6-dev 
   libc6-dev 
   libssl-dev 
   libmysql++-dev 
@@ -22,7 +22,7 @@ packages = %w{
   python-setuptools
   python-dev
   ack-grep
-
+  libicu-dev
   htop
   lsof
   tree
