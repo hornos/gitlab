@@ -7,8 +7,9 @@ email:
   host: <%= @host %>
 
 # Gitosis congiguration
-gitosis:
-  admin_uri: git@<%= @host %>:gitosis-admin.git
+git_host:
+  system: gitolite
+  admin_uri: git@<%= @host %>:gitolite-admin.git
   base_path: /home/git/repositories/
   host: <%= @host %>
   git_user: git
