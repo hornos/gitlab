@@ -4,3 +4,12 @@
 [submodule "chef/cookbooks/rvm"]
 	path = chef/cookbooks/rvm
 	url = https://github.com/fnichol/chef-rvm.git
+[submodule "chef/cookbooks/redmine"]
+	path = chef/cookbooks/redmine
+	url = git@github.com:iteh/chef-redmine.git
+[submodule "chef/cookbooks/gitolite"]
+	path = chef/cookbooks/gitolite
+	url = git://github.com/iteh/chef-gitolite.git
+[submodule "chef/cookbooks/git"]
+	path = chef/cookbooks/git
+	url = https://github.com/fnichol/chef-git.git
