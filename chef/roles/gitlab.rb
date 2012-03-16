@@ -8,7 +8,20 @@ run_list(
   "recipe[rvm::vagrant]",
   "recipe[vagrant]",
   "recipe[pygments]",
-  "recipe[gitosis]",
+  "recipe[gitolite::source]", 
+  "recipe[vagrant::gitolite]",
+  "recipe[redis::install_from_release]",
+  "recipe[redis::server]",
   "recipe[gitlab]",
   "recipe[gitlab::nginx]"
+)  
+
+override_attributes(
+  :redis => { 
+    :version => "2.4.8"
+  },
+  :gitolite => {
+    :umask => "0007"
+  }
+  
 )
