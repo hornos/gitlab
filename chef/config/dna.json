@@ -1,0 +1,14 @@
+{
+   "fanfare":{
+      "default_db_type":"mysql"
+    },
+   "run_list":[
+      "recipe[rbenv::system]",
+      "recipe[rbenv::vagrant]",
+      "role[mysql_node]",
+      "role[primary_node]",
+      "role[production_cluster]",
+      "role[app_node]",
+      "role[gitlab]"
+   ]
+}
