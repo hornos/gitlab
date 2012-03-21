@@ -2,5 +2,5 @@
   "id"        : "redmine",
   "comment"   : "redmine system user",
   "home"      : "/home/redmine",
-  "ssh_keys"  : ["ssh-dss AAAAB3NzaC1kc3MAAACBAKqGK72iPQrfV7f0Z9SDMnnFpZc96CvtB++r3OGnsrVQh6KhEM5tCurJcNzsQTvC/M/1DtRB4YVhpPyW5S6D7b+czIgqn/UCCVkWREukdnjWHXw7aNycK+m/KBJCbHjm/QLHKz/XAr0Ecen1ZCIEs1xgS2d4t3gaEkASjl09hwsvAAAAFQDFpTVeFEoCgFl9r8eXkseft8gh5QAAAIBeCJPoxGwtwoAmjcsaGF1JD7hMpwaJvIOjpr26EfPmIbZ30lXtZOIVf8WlsYzHKAqZKSM+0DR9Yk4C7zVk8BT0tbTQle2x9Ks7vSkAqSwwsRPw+hztYDrqntLkjC2CZa15XQwE7wTdOWfqGD8lyTX9I/aHtgVbcMZWeGcTe6o8OwAAAIATYBRHLPu6F0GtpEa3KDk2+3D9/K7BtgvOLMyfuY+Y3BYIxmDKO3H4dk48M6KXy07vOh0QGETTGEULxRKkoX1A+IDGu4Vmw1/MCuanI9if2FHdj0ddbpkiVj4a28IFpd4I+J9R/K+oSMEKX9UZIoIVkd0kLn9pbGMKMDFTGhA06A== ehaselwanter@edmund-haselwanters-computer.local"]
+  "ssh_keys"  : [""]
 }
