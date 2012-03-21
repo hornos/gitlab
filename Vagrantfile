@@ -31,11 +31,22 @@ Vagrant::Config.run do |config|
   #
   config.vm.provision :chef_solo do |chef|
     chef.cookbooks_path = "chef/cookbooks"
-    chef.roles_path = "chef/roles"
+    chef.roles_path = "chef/roles"   
+    chef.data_bags_path = "chef/databags" 
+    chef.add_recipe "rbenv::system"
+    chef.add_recipe "rbenv::vagrant"  
+    chef.add_role "mysql_node"
+    chef.add_role "primary_node"
+    chef.add_role "production_cluster" 
+    chef.add_role "app_node"
     chef.add_role "gitlab"
   
     # You may also specify custom JSON attributes:
-    chef.json = { :mysql_password => "foo" }
+    chef.json = { :fanfare => 
+      {
+        :default_db_type => "mysql"
+      }
+    }
   end
 
 end

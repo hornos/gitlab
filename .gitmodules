@@ -13,3 +13,33 @@
 [submodule "chef/cookbooks/git"]
 	path = chef/cookbooks/git
 	url = https://github.com/fnichol/chef-git.git
+[submodule "chef/cookbooks/fanfare"]
+	path = chef/cookbooks/fanfare
+	url = git://github.com/iteh/chef-fanfare.git
+[submodule "chef/cookbooks/postgresql"]
+	path = chef/cookbooks/postgresql
+	url = https://github.com/opscode-cookbooks/postgresql.git
+[submodule "chef/cookbooks/mysql"]
+	path = chef/cookbooks/mysql
+	url = https://github.com/opscode-cookbooks/mysql.git
+[submodule "chef/cookbooks/database"]
+	path = chef/cookbooks/database
+	url = https://github.com/opscode-cookbooks/database.git
+[submodule "chef/cookbooks/nginx"]
+	path = chef/cookbooks/nginx
+	url = https://github.com/opscode-cookbooks/nginx.git
+[submodule "chef/cookbooks/runit"]
+	path = chef/cookbooks/runit
+	url = https://github.com/opscode-cookbooks/runit.git
+[submodule "chef/cookbooks/user"]
+	path = chef/cookbooks/user
+	url = git://github.com/fnichol/chef-user.git
+[submodule "chef/cookbooks/openssl"]
+	path = chef/cookbooks/openssl
+	url = https://github.com/opscode-cookbooks/openssl.git
+[submodule "chef/cookbooks/rbenv"]
+	path = chef/cookbooks/rbenv
+	url = https://github.com/fnichol/chef-rbenv.git
+[submodule "chef/cookbooks/ruby_build"]
+	path = chef/cookbooks/ruby_build
+	url = https://github.com/fnichol/chef-ruby_build.git
