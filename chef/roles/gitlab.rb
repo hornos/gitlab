@@ -3,17 +3,14 @@ description "GitLab Web App"
 
 run_list(
   "recipe[base_packages]",
-  "recipe[nginx]",
-  "recipe[rvm::system]",
-  "recipe[rvm::vagrant]",
-  "recipe[vagrant]",
+#  "recipe[vagrant]",
   "recipe[pygments]",
   "recipe[gitolite::source]", 
-  "recipe[vagrant::gitolite]",
+#  "recipe[vagrant::gitolite]",
   "recipe[redis::install_from_release]",
   "recipe[redis::server]",
-  "recipe[gitlab]",
-  "recipe[gitlab::nginx]"
+  "recipe[gitlab]"
+#  "recipe[gitlab::nginx]"
 )  
 
 override_attributes(
@@ -22,6 +19,9 @@ override_attributes(
   },
   :gitolite => {
     :umask => "0007"
+  },
+  :gitlab => {
+    :hostname => "gitlab.local"
   }
   
 )

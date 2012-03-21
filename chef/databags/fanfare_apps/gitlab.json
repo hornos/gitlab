@@ -1,0 +1,22 @@
+{
+  "id"      : "gitlab",
+  "cluster" : "production",
+  "db_info" : "mysql",
+  "db" : {   
+    "host" : "localhost",
+    "password"  : "anothersecret"
+  },
+
+  "env" : {
+    "HOPTOAD_API_KEY" : "abc123..."
+  },
+
+  "http" : {
+    "host_name" : "gitlab.local"
+  }, 
+  "deploy" : {
+    "repo" : "https://github.com/gitlabhq/gitlabhq.git",
+    "revision" : "stable",
+    "" : ""
+  }
+}

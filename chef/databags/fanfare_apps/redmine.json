@@ -1,0 +1,16 @@
+{
+  "id"      : "redmine",
+  "cluster" : "production",
+  "db_info" : "mysql",
+  "db" : {
+    "password"  : "anothersecret"
+  },
+
+  "env" : {
+    "HOPTOAD_API_KEY" : "abc123..."
+  },
+
+  "http" : {
+    "host_name" : "redmine.local"
+  }
+}
