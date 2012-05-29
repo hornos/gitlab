@@ -40,9 +40,9 @@ On your local machine, update `/etc/hosts` and add:
 
     sudo bash -c 'echo "33.33.33.20 gitlab.local" >> /etc/hosts'
 
-Connect to the site
+Open the site in your favorite browser or if you're using OS X, just run
 
-    http://gitlab.local
+    open http://gitlab.local
 
 Login with:
 
