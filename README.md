@@ -11,6 +11,10 @@ If you have problems installing or running vagrant you should consult the [offic
 
     vagrant box add precise32 http://files.vagrantup.com/precise32.box
 
+or if you prefer a german local for the system
+
+    vagrant box add precise32 http://dl.dropbox.com/u/155311/precise32-de_DE.box
+
 Clone repository
 
     git clone git://github.com/oschrenk/gitlab.git
@@ -32,9 +36,9 @@ Connect to vagrant machine and start rails process
     cd /vagrant/gitlabhq
     bundle exec thin start -e production
 
-On your local machine, update /etc/hosts and add:
+On your local machine, update `/etc/hosts` and add:
 
-    33.33.33.20 gitlab.local
+    sudo bash -c 'echo "33.33.33.20 gitlab.local" >> /etc/hosts'
 
 Connect to the site
 
