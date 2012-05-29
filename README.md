@@ -1,5 +1,7 @@
 # Gitlab w/ Chef & Vagrant
 
+## Prerequisites
+
 1. Install [Virtual Box](https://www.virtualbox.org). Downloads can be found [here](https://www.virtualbox.org/wiki/Downloads)
 2. Install [Vagrant](http://vagrantup.com) by either running `gem install vagrant` or by [downloading](http://downloads.vagrantup.com/) and running the appropiate installer for your operating system
 
@@ -7,6 +9,8 @@ If you have problems installing or running vagrant you should consult the [offic
 
 Get the 'Lucid 32' box (it should work on others, but only tested with
 lucid)
+
+## Usage
 
     vagrant box add lucid32 http://files.vagrantup.com/lucid32.box
 
