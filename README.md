@@ -16,7 +16,8 @@ lucid)
 
 Clone repository
 
-    git clone git://github.com/dpmcnevin/gitlab.git
+    git clone git://github.com/oschrenk/gitlab.git
+    cd gitlab
 
 Init and update the submodules
 
