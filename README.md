@@ -1,6 +1,6 @@
 # Gitlab w/ Chef & Vagrant
 
-[http://vagrantup.com/docs/getting-started/index.html](Install Vagrant)
+[Install Vagrant](http://vagrantup.com/v1/docs/getting-started/index.html)
 
 Get the 'Lucid 32' box (it should work on others, but only tested with
 lucid)
