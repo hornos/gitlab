@@ -3,7 +3,7 @@
 ## Prerequisites
 
 1. Install [Virtual Box](https://www.virtualbox.org). Downloads can be found [here](https://www.virtualbox.org/wiki/Downloads)
-2. Install [Vagrant](http://vagrantup.com) by either running `gem install vagrant` or by [downloading](http://downloads.vagrantup.com/) and running the appropiate installer for your operating system
+2. Install [Vagrant](http://vagrantup.com) by either running `gem install vagrant` or by [downloading](http://downloads.vagrantup.com/) and running the appropriate installer for your operating system
 
 If you have problems installing or running vagrant you should consult the [official documentation](http://vagrantup.com/v1/docs/index.html).
 
@@ -11,7 +11,7 @@ If you have problems installing or running vagrant you should consult the [offic
 
     vagrant box add precise32 http://files.vagrantup.com/precise32.box
 
-or if you prefer a german local for the system
+or if you prefer a german locale for the system
 
     vagrant box add precise32 http://dl.dropbox.com/u/155311/precise32-de_DE.box
 
