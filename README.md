@@ -7,9 +7,6 @@
 
 If you have problems installing or running vagrant you should consult the [official documentation](http://vagrantup.com/v1/docs/index.html).
 
-Get the 'Lucid 32' box (it should work on others, but only tested with
-lucid)
-
 ## Usage
 
     vagrant box add precise32 http://files.vagrantup.com/precise32.box
