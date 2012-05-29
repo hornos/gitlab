@@ -12,7 +12,7 @@ lucid)
 
 ## Usage
 
-    vagrant box add lucid32 http://files.vagrantup.com/lucid32.box
+    vagrant box add precise32 http://files.vagrantup.com/precise32.box
 
 Clone repository
 
